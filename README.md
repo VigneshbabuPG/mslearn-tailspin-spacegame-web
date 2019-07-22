@@ -1,4 +1,6 @@
 
+[![Build Status](https://dev.azure.com/vigneshbabuvb/Sonarcloud/_apis/build/status/mslearn-tailspin-spacegame-web?branchName=security-scan)](https://dev.azure.com/vigneshbabuvb/Sonarcloud/_build/latest?definitionId=3&branchName=security-scan)
+
 # Contributing
 
 This project welcomes contributions and suggestions.  Most contributions require you to agree to a
