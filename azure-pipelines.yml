@@ -47,7 +47,9 @@ steps:
     command: 'build'
     arguments: '--no-restore --configuration $(buildConfiguration)'
     projects: '**/*.csproj'
-
+    feedsToUse: 'select'
+    vstsFeed: 'Tailspin.SpaceGame.Web.Models'
+    
 - task: DotNetCoreCLI@2
   displayName: 'Publish the project - $(buildConfiguration)'
   inputs:
